@@ -16,17 +16,17 @@ body {
     padding: 6px 23px;
 }
 
-.nav {
+nav {
     float: right;
 }
 
-.nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav li {
+nav li {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
     line-height: 41px;
@@ -35,7 +35,7 @@ body {
     padding: 0px 21px;
   }
    
-.nav a {
+nav a {
     text-decoration: none;
     color: #fff;
     display: block;
