@@ -3,11 +3,40 @@ header {
     height: 41px;
 }
 
-#logo {
+body {
+    margin: 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
     height: 29px;
     padding: 6px 23px;
 }
 
-body {
+.nav {
+    float: right;
+}
+
+.nav ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    line-height: 41px;
+    height: 29px;
+    display: inline-block;
+    padding: 0px 21px;
+  }
+   
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
 }
