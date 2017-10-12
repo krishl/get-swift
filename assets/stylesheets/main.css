@@ -227,25 +227,25 @@ aside {
     margin: 2px 0px 5px;
 }
 
-.deadline .due-date {
-    display: inline-block;
-    color: #E5001C;
-    text-align: left;
-    text-transform: none;
-    width: 91%;
-}
+    .deadline .due-date {
+        display: inline-block;
+        color: #E5001C;
+        text-align: left;
+        text-transform: none;
+        width: 91%;
+    }
 
-.deadline .icon {
-    display: inline-block;
-    height: 100%;
-    text-align: right;
-    width: 5%;
-}
+    .deadline .icon {
+        display: inline-block;
+        height: 100%;
+        text-align: right;
+        width: 5%;
+    }
 
-#alarm {
-    max-height: 100%;
-    max-width: 100%;
-}
+    #alarm {
+        max-height: 100%;
+        max-width: 100%;
+    }
 
 /* Responsive */
 
