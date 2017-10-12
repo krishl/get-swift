@@ -73,10 +73,10 @@ iframe {
 
 .button {
     background-color: #eff0f1;
-    border-radius: 3px;
+    border-radius: 4px;
     display: table-cell;
     color: #e06857;
-    font-size: 14px;
+    font-size: 13px;
     padding: 15px 0px;
     letter-spacing: 1.1px;
     text-align: center;
@@ -118,6 +118,68 @@ aside {
 #menu-button {
     display: table;
     margin: 18px auto;
-    position: relative;
-    width: 93%;
+    width: 92%;
 }
+
+.outer {
+    background-color: #eff0f1;
+    border-radius: 4px;
+    color: #e06857;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    margin: 19px auto;
+    padding: 11px 2px 3px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 91%;
+}
+
+.inner {
+    background-color: white;
+    border-bottom: 1px solid #d8d8d8;
+    border-radius: 4px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin: 11px 3px 3px;
+    padding: 10px 0px;
+    display: flex;
+}
+
+/* Driver Box */
+
+.driver-image {
+    padding: 0px 6px;
+    width: 13%;
+}
+
+    .driver-image img {
+        border-radius: 4px;
+        width: 100%;
+    }
+
+.driver-info {
+    padding: 0px 5px;
+    text-align: left;
+    width: 40%;
+}
+
+    .driver-info .name {
+        color: #E5001C;
+        font-weight: bold;
+    }
+
+    .driver-info .job-count, .driver-availability .time {
+        color: rgb(94, 94, 94);
+        text-transform: none;
+    }
+
+.driver-availability {
+    padding: 0px 5px;
+    text-align: right;
+    width: 40%;
+}
+
+    .driver-availability .availability {
+        color: black;
+        font-weight: bold;
+    }
