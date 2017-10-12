@@ -109,8 +109,15 @@ aside {
     display: block;
     color: gray;
     font-size: 14px;
-    margin: 16px auto;
+    margin: 17px auto;
     outline: none;
     padding: 16px;
     width: 80%;
+}
+
+#menu-button {
+    display: table;
+    margin: 18px auto;
+    position: relative;
+    width: 93%;
 }
