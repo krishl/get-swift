@@ -142,10 +142,14 @@ aside {
     letter-spacing: 0.5px;
     margin: 11px 3px 3px;
     padding: 10px 0px;
-    display: flex;
 }
 
-/* Driver Box */
+/* Drivers Box */
+
+#drivers {
+    display: flex;
+    letter-spacing: 0.5px;
+}
 
 .driver-image {
     padding: 0px 6px;
@@ -163,12 +167,12 @@ aside {
     width: 40%;
 }
 
-    .driver-info .name {
+    .driver-info .name, .job .status {
         color: #E5001C;
         font-weight: bold;
     }
 
-    .driver-info .job-count, .driver-availability .time {
+    .driver-info .job-count, .driver-availability .time, .job .job-id {
         color: rgb(94, 94, 94);
         text-transform: none;
     }
@@ -183,3 +187,52 @@ aside {
         color: black;
         font-weight: bold;
     }
+
+/* Jobs Box */
+
+#jobs {
+    letter-spacing: 0px;
+}
+
+.job {
+    margin: 2px 0px 5px;
+}
+
+    .job .job-id, .deadline .due-date {
+        display: inline-block;
+        text-align: left;
+        width: 48%;
+    }
+
+    .job .status, .deadline .icon {
+        display: inline-block;
+        height: 100%;
+        text-align: right;
+        width: 48%;
+    }
+
+.place, .client {
+    margin: 3px;
+    text-align: left;
+    text-transform: none;
+}
+
+.client {
+    color: #1DCE77;
+    font-weight: bold;
+}
+
+.deadline {
+    height: 13px;
+    margin: 2px 0px 5px;
+}
+
+.deadline .due-date {
+    color: #E5001C;
+    text-transform: none;
+}
+
+#alarm {
+    max-height: 100%;
+    max-width: 100%;
+}
