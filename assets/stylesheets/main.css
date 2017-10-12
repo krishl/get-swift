@@ -102,3 +102,15 @@ aside {
     float: left;
     width: 19%;
 }
+
+.searchbox {
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 3px;
+    display: block;
+    color: gray;
+    font-size: 14px;
+    margin: 16px auto;
+    outline: none;
+    padding: 16px;
+    width: 80%;
+}
