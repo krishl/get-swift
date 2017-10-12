@@ -12,7 +12,7 @@ Here are screenshots of my final result:
 
 After first breakpoint:
 
-![](https://puu.sh/xWh63/d852b7ed22.png)
+![](https://puu.sh/xWhmP/cb1cbfdb41.png)
 
 After second breakpoint (navigation bar links disappear):
 
