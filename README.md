@@ -10,6 +10,10 @@ Here are screenshots of my final result:
 
 ![](https://puu.sh/xWgXQ/36e250904d.png)
 
+After first breakpoint:
+
 ![](https://puu.sh/xWh63/d852b7ed22.png)
+
+After second breakpoint (navigation bar links disappear):
 
 ![](https://puu.sh/xWh8X/f56a1857b5.png)
