@@ -198,13 +198,13 @@ aside {
     margin: 2px 0px 5px;
 }
 
-    .job .job-id, .deadline .due-date {
+    .job .job-id{
         display: inline-block;
         text-align: left;
         width: 48%;
     }
 
-    .job .status, .deadline .icon {
+    .job .status {
         display: inline-block;
         height: 100%;
         text-align: right;
@@ -228,11 +228,49 @@ aside {
 }
 
 .deadline .due-date {
+    display: inline-block;
     color: #E5001C;
+    text-align: left;
     text-transform: none;
+    width: 91%;
+}
+
+.deadline .icon {
+    display: inline-block;
+    height: 100%;
+    text-align: right;
+    width: 5%;
 }
 
 #alarm {
     max-height: 100%;
     max-width: 100%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .map {
+        width: auto;
+        float: none;
+    }
+
+    aside {
+        width: auto;
+        float: none;
+    }
+
+    .place, .client {
+        margin: 0px 11px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    nav ul > *:not(:last-child) {
+        display: none;
+    }
+
+    .place, .client {
+        margin: 0px 6px;
+    }
 }
